@@ -1,6 +1,6 @@
 const { Bill } = require('../models');
 
-const getFileURL = (filePath) => `http://192.168.1.111:5678/${filePath}`;
+const getFileURL = (filePath) => `http://192.168.1.111:5678/${filePath}`; // TODO fix img url
 
 const isPicture = (mimeType) => ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'].includes(mimeType);
 
